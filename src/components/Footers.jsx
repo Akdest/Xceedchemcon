@@ -1,6 +1,7 @@
 import React from 'react'
 import { Footer } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import logof from '/assets/logo.png'
 const Footers = () => {
   return (
     <Footer container>
@@ -9,7 +10,7 @@ const Footers = () => {
           <div>
             <Footer.Brand
               href="/"
-              src="src\assets\logo.png"
+              src={logof}
               alt="Chemcon Logo"
               name="Chemcon"
             />

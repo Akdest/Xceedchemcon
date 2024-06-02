@@ -1,5 +1,10 @@
 import React from 'react'
-import about from '../assets/about.png'
+import about from '/assets/about.png'
+
+import imagei1 from '/assets/icons/member.png'
+import imagei2 from '/assets/icons/event.png'
+import imagei3 from '/assets/icons/clubs.png'
+import imagei4 from '/assets/icons/payment.png'
 
 const About = () => {
   return (
@@ -38,14 +43,14 @@ const About = () => {
             <div className='md:w-1/2 w-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12'>
                 <div className='space-y-8'>
                     <div className='flex items-center gap-4'>
-                        <img src="src\assets\icons\member.png" alt="" />
+                        <img src={imagei1} alt="" />
                         <div>
                             <h4 className='text-2xl text-neutralDGrey font-semibold'>2,245,341</h4>
                             <p>Members</p>
                         </div>
                     </div>
                     <div className='flex items-center gap-4'>
-                        <img src="src\assets\icons\event.png" alt="" />
+                    <img src={imagei2} alt="" />
                         <div>
                             <h4 className='text-2xl text-neutralDGrey font-semibold'>828,867</h4>
                             <p>Event Bookings</p>
@@ -53,14 +58,14 @@ const About = () => {
                     </div>
                 </div><div className='space-y-8'>
                     <div className='flex items-center gap-4'>
-                        <img src="src\assets\icons\clubs.png" alt="" />
+                    <img src={imagei3} alt="" />
                         <div>
                             <h4 className='text-2xl text-neutralDGrey font-semibold'>46,328</h4>
                             <p>Clubs</p>
                         </div>
                     </div>
                     <div className='flex items-center gap-4'>
-                        <img src="src\assets\icons\payment.png" alt="" />
+                    <img src={imagei4} alt="" />
                         <div>
                             <h4 className='text-2xl text-neutralDGrey font-semibold'>1,926,436</h4>
                             <p>Payments</p>

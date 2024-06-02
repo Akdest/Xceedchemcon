@@ -1,6 +1,13 @@
 import React from 'react'
-import prodcut from '../assets/product.png'
-import prodImg from '../assets/prod_img.png'
+import prodcut from '/assets/product.png'
+import prodImg from '/assets/prod_img.png'
+
+import imgpc1 from '/assets/company1.png'
+import imgpc2 from '/assets/company2.png'
+import imgpc3 from '/assets/company3.png'
+import imgpc4 from '/assets/company4.png'
+import imgpc5 from '/assets/company5.png'
+import imgpc6 from '/assets/company6.png'
 
 const Product = () => {
   return (
@@ -38,12 +45,13 @@ const Product = () => {
                     <p className='text-base text-neutralGrey mb-8'>British Dragon Boat Racing Association</p>
                     <div>
                         <div className='flex items-center gap-8 flex-wrap'>
-                            <img src="src\assets\company1.png" alt="" className='cursor-pointer'/>
-                            <img src="src\assets\company2.png" alt="" className='cursor-pointer'/>
-                            <img src="src\assets\company3.png" alt="" className='cursor-pointer'/>
-                            <img src="src\assets\company4.png" alt="" className='cursor-pointer'/>
-                            <img src="src\assets\company5.png" alt="" className='cursor-pointer'/>
-                            <img src="src\assets\company6.png" alt="" className='cursor-pointer'/>
+                            <img src={imgpc1} alt="" className='cursor-pointer'/>
+                            <img src={imgpc2} alt="" className='cursor-pointer'/>
+                            <img src={imgpc3} alt="" className='cursor-pointer'/>
+                            <img src={imgpc4} alt="" className='cursor-pointer'/>
+                            <img src={imgpc5} alt="" className='cursor-pointer'/>
+                            <img src={imgpc6} alt="" className='cursor-pointer'/>
+
                             <div className='flex items-center gap-8'>
                                 <a href="/" className='font-bold text-brandPrimary hover:text-neutral-700'>Meet All Customers</a>
                             </div>
